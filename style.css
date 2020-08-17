@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: whitesmoke;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background-color: #222;
+    color: whitesmoke;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.logo {
+    font-size: 2em;
+    color: linen;
+}
+
+.sidebar {
+    background-color: #333;
+    height: 90vh;
+    top: 10vh;
+    right: 0;
+    width: 17%;
+    position: fixed;
+    padding: 20px;
+    z-index: 1;
+    color: whitesmoke;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+.menu {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu div {
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    margin: 5px;
+}
+
+.moins {
+    cursor: pointer;
+    transition: .4s;
+}
+
+.moins:hover {
+    color: tomato;
+}
+
+#total {
+    height: 10%;
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#total div {
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    top: 10vh;
+    position: relative;
+}
+
+.main-container {
+    width: 60%;
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-container h2 {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: whitesmoke;
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    background-color: #222;
+}
+
+.main-container>div {
+    height: 40%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border: 2px solid black;
+}
+
+.pic {
+    flex: 5;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic img {
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+}
+
+.pic .heart {
+    position: absolute;
+    color: whitesmoke;
+    cursor: pointer;
+    transform: translate(-310%, -30%);
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid #222;
+    background-color: #222;
+}
+
+.btn {
+    flex: 1;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5em;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: teal;
+    color: whitesmoke;
+}
