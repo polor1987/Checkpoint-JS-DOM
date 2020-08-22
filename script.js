@@ -154,6 +154,7 @@ for (let i = 0; i < moins.length; i++) {
                 burger3--
                 bur(2)
                 count()
+                break
             case moins[3]:
                 burger4--
                 bur(3)
